@@ -1,6 +1,26 @@
 # Aura-Check — Student Wellness Analytics
 
-Aura-Check is a web-based student wellness project that explores how digital habits, screen time, study routines, sleep, physical activity, and perceived stress relate to mental-health-related patterns. It combines a lightweight machine-learning model with a simple web interface.
+Aura-Check is an end-to-end machine learning project that explores patterns associated with student wellness using demographic information, academic routines, digital habits, sleep, physical activity, and perceived stress.
+
+The project covers the complete machine learning workflow, from data exploration and preprocessing to Random Forest model training, hyperparameter tuning, evaluation, and deployment through a FastAPI backend and an interactive web frontend.
+
+Machine Learning Workflow
+
+Data cleaning: Inspecting missing values, inconsistent records, and data quality.
+
+Exploratory Data Analysis (EDA): Examining feature distributions, relationships, and patterns in the dataset.
+
+Data preprocessing: Preparing input features and transforming data into a format suitable for machine learning.
+
+Model development: Training a Random Forest model for the project's prediction task.
+
+Hyperparameter tuning: Searching for better model configurations using a defined tuning strategy.
+
+Model evaluation: Assessing predictive performance using appropriate evaluation metrics.
+
+Deployment: Serving the saved model through FastAPI and connecting it to a web-based interface.
+
+
 
 > **Important:** Aura-Check is an educational analytics project, not a medical tool. Its output is an estimate from a machine-learning model—not a diagnosis, clinical assessment, or substitute for professional support.
 
