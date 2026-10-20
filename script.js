@@ -2,7 +2,7 @@
   "use strict";
 
   // Keep this endpoint unchanged: the FastAPI server runs locally on port 8000.
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = "https://aura-check-0a7s.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
